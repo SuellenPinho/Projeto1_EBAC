@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header,
+h2,
+section h2,
+section h3,
+form button,
+p {
+    font-family: Delicious Handrawn;
+}
+body{
+    background-color: rgb(226, 123, 140,0.15);
+}
+header {
+    padding: 10px 0;
+    background-color: rgb(255, 0, 255);
+    color: #ecf0f1;
+    text-align: center;
+    margin-bottom: 25px;
+    
+}
+
+header nav li {
+    display: inline;
+    margin-left: 18px;
+    font-size: 20px;
+}
+
+header nav ul {
+    text-align: right;
+}
+#carouselExampleIndicators{
+    width: 50%;
+    margin: auto 25%;
+       }
+
+header nav li a{
+    color:#ecf0f1;
+    text-decoration: none;
+}
+.container1{
+    max-width: 1366px;
+    margin: 0 auto;
+     display: flex;
+    justify-content: space-between;
+}
+.social-list {
+    display: flex;
+}
+.social-list a {
+    display: inline;
+    justify-content: space-between;
+ 
+   
+}
+.social-list img{
+    height: 24px;
+    
+}
+.articles{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+       }
+p{
+    font-size: medium;
+}
+.articles article a{
+    background-color: rgb(255, 0, 255);
+    color: #fff;
+   
+    display: inline-block;
+    text-decoration: none;
+    font-weight:lighter;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    
+}
+#contact .container1{
+    display: block;
+    padding: 50px;
+    margin-bottom:40px;
+}
+.contact-methods{
+    display:flex;
+    justify-content: space-between;
+}
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 7px;
+    margin-left: 150%;
+    }
+    form textarea{
+        resize:both;
+        height: 180px;
+    
+    }
+    form button{
+        background-color:rgb(255, 0, 255);
+        color:#ecf0f1;
+        border:rgb(226, 123, 140,0.15);
+        cursor:all-scroll;
+        border-radius: 10%;
+      
+    }
+    form button:hover{
+        background-color: rgb(61, 61, 206)
+    }
+   
+    #Contact-Whats img{
+       position: fixed;
+       bottom:0px;
+       right: 0px;
+       border-radius: 6 0%;
+       height: 7%;
+     width: 5%;
+     opacity: 1;
+    }
+    footer{
+        background-color: rgb(255, 0, 255);
+        color:#ecf0f1;
+        padding: 10px 0;
+              
+    }
